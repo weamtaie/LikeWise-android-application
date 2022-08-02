@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#242527"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="136dp"
+        android:layout_height="223dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="84dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_20211230_wa0056"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="10dp"
+        android:text="Pages : 373"
+        android:textColor="#FFFFFF"
+        android:textSize="19dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="227dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="11dp"
+        android:text="Author : Charles Dickens"
+        android:textColor="#FFFFFF"
+        android:textSize="19dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="111dp"
+        android:text="Name : Oliver Twist"
+        android:textColor="#FFFFFF"
+        android:textSize="19dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="144dp"
+        android:text="Summary"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="355dp"
+        android:layout_height="306dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="15dp"
+        android:text="When 9-year-old orphan Oliver Twist (John Howard Davies) dares to ask his cruel taskmaster, Mr. Bumble (Francis L. Sullivan), for a second serving of gruel, he's hired out as an apprentice. Escaping that dismal fate, young Oliver falls in with the street urchin known as the Artful Dodger (Anthony Newley) and his criminal mentor, Fagin (Alec Guinness). When kindly Mr. Brownlow (Henry Stephenson) takes Oliver in, Fagin's evil henchman Bill Sikes (Robert Newton) plots to kidnap the boy"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/convergence"
+        android:text="Oliver Twist"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#FFEB3B"
+        android:textSize="45sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

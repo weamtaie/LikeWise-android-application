@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SCCI1</string>
+    <string name="img1">img1</string>
+    <string name="img3">img3</string>
+    <string name="string_img3">btn3</string>
+    <string name="music">Music</string>
+    <string name="books">Books</string>
+    <string name="wise">WISE</string>
+    <string name="like">LIKE</string>
+    <string name="img2">img2</string>
+    <string name="movies">Movies</string>
+</resources>

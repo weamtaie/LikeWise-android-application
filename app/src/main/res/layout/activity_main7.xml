@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#242527"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtview"
+        android:layout_width="257dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="57dp"
+        android:fontFamily="@font/convergence"
+        android:text="Top Music"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#FFEB3B"
+        android:textSize="45sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="30dp"
+        android:text="Name: We Don't talk any more"
+        android:textColor="#FFFFFF"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@+id/imageView24"
+        app:layout_constraintTop_toBottomOf="@+id/txtview" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="11dp"
+        android:text="Artist: Charlie puth ft Selena Gomez"
+        android:textColor="#FFFFFF"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@+id/imageView24"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="10dp"
+        android:text="Time: 3m 51s"
+        android:textColor="#FFFFFF"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@+id/imageView24"
+        app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="53dp"
+        android:src="@drawable/good4u"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView24" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="63dp"
+        android:text="Name: Good 4 u"
+        android:textColor="#FFFFFF"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@+id/imageView14"
+        app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="10dp"
+        android:text="Artist: Olivia Rodrigo"
+        android:textColor="#FFFFFF"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@+id/imageView14"
+        app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="11dp"
+        android:text="Time: 2m 59s"
+        android:textColor="#FFFFFF"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@+id/imageView14"
+        app:layout_constraintTop_toBottomOf="@+id/textView38" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="89dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="49dp"
+        android:src="@drawable/levitating"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="55dp"
+        android:text="Name: Levitating"
+        android:textColor="#FFFFFF"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@+id/imageView15"
+        app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Artist: Dua Lipa ft. DaBaby"
+        android:textColor="#FFFFFF"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@+id/imageView15"
+        app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Time: 3m 51s"
+        android:textColor="#FFFFFF"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@+id/imageView15"
+        app:layout_constraintTop_toBottomOf="@+id/textView31" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="85dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="47dp"
+        android:src="@drawable/mood"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="55dp"
+        android:text="Name: Mood"
+        android:textColor="#FFFFFF"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@+id/imageView16"
+        app:layout_constraintTop_toBottomOf="@+id/textView32" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="13dp"
+        android:text="Artist: 24kGoldn ft. iann dior"
+        android:textColor="#FFFFFF"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@+id/imageView16"
+        app:layout_constraintTop_toBottomOf="@+id/textView33" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="8dp"
+        android:text="Time: 2m 31s"
+        android:textColor="#FFFFFF"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@+id/imageView16"
+        app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="96dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/saveurtears"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView16" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="48dp"
+        android:text="Name: Save your tears"
+        android:textColor="#FFFFFF"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@+id/imageView18"
+        app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="8dp"
+        android:text="Artist: The Weeknd"
+        android:textColor="#FFFFFF"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@+id/imageView18"
+        app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="7dp"
+        android:text="Time: 4m 9s"
+        android:textColor="#FFFFFF"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@+id/imageView18"
+        app:layout_constraintTop_toBottomOf="@+id/textView37" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="34dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtview"
+        app:srcCompat="@drawable/we" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
